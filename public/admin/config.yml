@@ -1,36 +1,32 @@
 backend:
   name: git-gateway
-  branch: master  # Branch to update (optional; defaults to master)
- 
-media_folder: "public/images/uploads"  # Folder where images will be stored
-public_folder: "/images/uploads"  # URL to access images
- 
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: public/images
+public_folder: images
 collections:
-  - name: "pages"  # The name of the collection
-    label: "Pages"  # The label in the CMS UI
-    folder: "app/content"  # The folder where the markdown files are stored
-    create: true  # Allow users to create new documents in this collection
-    slug: "{{slug}}"  # The filename for the created files
+  - name: "pages"
+    label: "Pages"
     files:
     - label: "Features"
       name: "features"
       file: "app/content/features.md"
       fields:
-        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Title", name: "title", widget: "string"}
         - { label: "Publish Date", name: "date", widget: "datetime" }
-        - label: "Features"
+        - { label: "Body", name: "body", widget: "markdown"}
+        - label: 'Features'
           name: "features"
-          widget: "list"
+          widget: list
           fields:
-            - { label: "Title", name: "title", widget: "string" }
-            - label: "SubSections"
+            - { label: "Title", name: "title", widget: "string"}
+            - label: "Sub Section"
               name: "subSections"
               widget: "list"
               fields:
-                - { label: "Title", name: "title", widget: "string" }
-                - { label: "Image", name: "image", widget: "image" }
+                - { label: "Title", name: "title", widget: "string"}
+                - { label: "Image", name: "image", widget: "image"}
                 - label: "Details"
                   name: "details"
                   widget: "list"
                   fields:
-                    - { label: "Description", name: "description", widget: "text" }
+                    - { label: "Description", name: "description", widget: "text"}
