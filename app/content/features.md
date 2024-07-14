@@ -43,9 +43,3 @@ features:
 
 ---
 **Project management solution for distributors**
-
-![](img/titanapp128.png)
-
-![]()
-
-![]()
