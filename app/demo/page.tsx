@@ -54,7 +54,7 @@ export default function Demo() {
       <div className="relative z-10 p-8">
         <div className="relative w-[994px] h-[793px] top-[20px] mx-auto mb-8">
           <div>
-            <p className="font-lato text-[22px] font-medium leading-[27.5px] text-left h-[28px] w-[521px]">We're Here To Provide 24x7 Support</p>
+            <p className="font-lato text-[22px] font-medium leading-[27.5px] text-left h-[28px] w-[521px]">We''re Here To Provide 24x7 Support</p>
             <p className="w-[931px] h-[54px] font-lato text-[14px] font-normal leading-[27px] text-left">Schedule a live demo with one of our PRO-TECH TITAN® product specialists. We can answer questions and show you the advanced features that will simplify many labor-intensive tasks and bring greater efficiency to your business.</p>
             <p className="w-[931px] h-[27px] font-lato text-[14px] font-normal leading-[27px] text-left">Please complete the form or give us a call at 800-344-7269.</p>
           </div>
