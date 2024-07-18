@@ -14,10 +14,10 @@ import Link from 'next/link';
 const Footer: React.FC = () => {
   return (
 
-    <footer className="bg-white py-8 px-4 shadow-inner h-[468px]">
+    <footer className="bg-white py-8 px-4 shadow-inner h-[320px]">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-8 font-[400] text-[18px] leading-[28.8px] text-[#404040] not-italic">
         <div className="space-y-4">
-          <Image src="/assa-abloy-logo-header.svg" alt="ASSA ABLOY" width={187} height={26} />
+          <Image src="/assa-abloy-logo-header.svg" alt="ASSA ABLOY" width={187} height={26} className="mt-[8px]" />
           <address className=" not-italic ">
             10027 S. 51st St.Phoenix, AZ 85044
           </address>
