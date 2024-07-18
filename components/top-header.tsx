@@ -33,7 +33,7 @@ interface CenteredTextImageProps {
 
 const TopHeader: React.FC<CenteredTextImageProps> = ({ title, breadcrumbs }) => {
   return (
-    <div className="relative w-full h-[420px]">
+    <div className="relative w-full h-[380px]">
       <Image src="/header.png" alt="ASSA ABLOY" width={1920} height={578} className="w-full h-full object-cover" />
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center ">
         <h1 className="text-white text-[46px] font-[700] leading-[57.51px] mb-2">{title}</h1>
