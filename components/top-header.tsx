@@ -33,7 +33,7 @@ interface CenteredTextImageProps {
 
 const TopHeader: React.FC<CenteredTextImageProps> = ({ title, breadcrumbs }) => {
   return (
-    <div className="flex flex-col items-center justify-center bg-blue-50 p-24 rounded-lg shadow-md">
+    <div className="flex flex-col items-center justify-center bg-blue-50 p-24 rounded-lg shadow-md mt-[35px]">
       <h1 className="text-2xl font-bold text-gray-800 mb-4">
         PRO-TECH TITAN® Software for Door and Hardware Distributors
       </h1>
