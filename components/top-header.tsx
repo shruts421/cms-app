@@ -33,20 +33,25 @@ interface CenteredTextImageProps {
 
 const TopHeader: React.FC<CenteredTextImageProps> = ({ title, breadcrumbs }) => {
   return (
-    <div className="relative w-full h-[380px]">
-      <Image src="/header.png" alt="ASSA ABLOY" width={1920} height={578} className="w-full h-full object-cover" />
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-center ">
-        <h1 className="text-white text-[46px] font-[700] leading-[57.51px] mb-2">{title}</h1>
-        <div className="text-white font-[500] text[22px] leading-[26.4px]">
-          {breadcrumbs.map((breadcrumb, index) => (
-            <span key={index}>
-              <Link href={breadcrumb.href}>
-                {breadcrumb.label}
-                {/* <a className="hover:underline">{breadcrumb.label}</a> */}
-              </Link>
-              {index < breadcrumbs.length - 1 && ' / '}
-            </span>
-          ))}
+    <div className="flex flex-col items-center justify-center bg-blue-50 p-24 rounded-lg shadow-md">
+      <h1 className="text-2xl font-bold text-gray-800 mb-4">
+        PRO-TECH TITAN® Software for Door and Hardware Distributors
+      </h1>
+      <p className="text-gray-600 text-center mb-6">
+        Submittals, estimates, quoting, scheduling, ordering and delivery details become automated, efficient and fast!
+      </p>
+      <div className="relative w-full max-w-4xl">
+        <Image
+          src="/homepage_header.png"
+          alt="imageAlt"
+          className="rounded-md"
+          width={1094}
+          height={26}
+        />
+        <div className="absolute inset-x-0 bottom-0 flex justify-center py-2">
+          <div className="w-4 h-4 bg-blue-500 rounded-full mx-1"></div>
+          <div className="w-4 h-4 bg-blue-200 rounded-full mx-1"></div>
+          <div className="w-4 h-4 bg-blue-200 rounded-full mx-1"></div>
         </div>
       </div>
     </div>

@@ -38,7 +38,7 @@ const Header = () => {
   return (
     <header className="fixed top-[20px] left-11 right-11 z-50 flex items-center justify-between p-4 shadow-md bg-white rounded-xl">
       <div className="flex items-center space-x-4">
-        <button className="p-2  border-[1px] border-black rounded-md">
+        <button type='button' className="p-2  border-[1px] border-black rounded-md">
           <img src="/menu.svg" alt="Menu" className="h-6 w-6" />
         </button>
 
@@ -60,7 +60,7 @@ const Header = () => {
           <img src="/search.svg" alt="Search" className="h-5 w-5" />
         </div>
         <button className="p-2 border rounded-md text-sm">EN</button>
-        <button className="p-2 bg-blue-500 text-white rounded-md text-sm">Login</button>
+        <button type='button' className="p-2 bg-blue-500 text-white rounded-md text-sm">Login</button>
       </div>
     </header>
   );
