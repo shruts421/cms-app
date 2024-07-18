@@ -33,15 +33,15 @@ interface CenteredTextImageProps {
 
 const TopHeader: React.FC<CenteredTextImageProps> = ({ title, breadcrumbs }) => {
   return (
-    <div className="relative w-full h-64">
+    <div className="relative w-full h-[521px]">
       <Image src="/header.png" alt="ASSA ABLOY" width={1920} height={578} className="w-full h-full object-cover" />
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
-        <h1 className="text-white text-2xl font-bold mb-2">{title}</h1>
-        <div className="text-white text-sm">
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center ">
+        <h1 className="text-white text-[46px] font-[700] leading-[57.51px] mb-2">{title}</h1>
+        <div className="text-white font-[500] text[22px] leading-[26.4px]">
           {breadcrumbs.map((breadcrumb, index) => (
             <span key={index}>
               <Link href={breadcrumb.href}>
-              {breadcrumb.label}
+                {breadcrumb.label}
                 {/* <a className="hover:underline">{breadcrumb.label}</a> */}
               </Link>
               {index < breadcrumbs.length - 1 && ' / '}
