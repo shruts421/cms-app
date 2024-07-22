@@ -1,35 +1,7 @@
-// // components/TopHeader.js
-// import React from 'react';
-// import Image from 'next/image';
-
-// const TopHeader = ({ title:string, breadcrumbs:any }) => {
-//     return (
-//         <div className="relative w-full h-64">
-//             <Image src="/header.png" alt="ASSA ABLOY" width={1920} height={478} className="w-full h-full object-cover" />
-//             <div className="absolute inset-0 flex items-center justify-center">
-//                 <h1 className="text-white text-2xl font-bold">Feature-Rich Software To Improve Productivity</h1>
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default TopHeader;
-
-
-// components/CenteredTextImage.tsx
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-interface Breadcrumb {
-  label: string;
-  href: string;
-}
-
-interface CenteredTextImageProps {
-  title: string;
-  breadcrumbs: Breadcrumb[];
-}
 
 const features = [
   {
@@ -127,10 +99,10 @@ const PromoSection: React.FC = () => {
 };
 
 
-const TopHeader: React.FC<CenteredTextImageProps> = ({ title, breadcrumbs }) => {
+const Dashboard: React.FC = () => {
   return (
     <div>
-      <div className="flex flex-col items-center justify-center bg-blue-50 p-24 rounded-lg shadow-md pt-[140px]">
+      <div className="flex flex-col items-center justify-center bg-[#D8F2F9] p-24 rounded-lg shadow-md pt-[140px]">
         <h1 className="text-2xl font-bold text-gray-800 mb-4">
           PRO-TECH TITAN® Software for Door and Hardware Distributors
         </h1>
@@ -201,5 +173,5 @@ const TopHeader: React.FC<CenteredTextImageProps> = ({ title, breadcrumbs }) => 
   );
 };
 
-export default TopHeader;
+export default Dashboard;
 

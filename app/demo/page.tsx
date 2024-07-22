@@ -1,6 +1,7 @@
 'use client'
 import { useState } from "react";
 import MainContainer from "../features/main-container";
+import Link from "next/link";
 
 export default function Demo() {
 
@@ -92,9 +93,13 @@ export default function Demo() {
                   </div>
                   <div className=" w-[308px] h-[22px] mt-2 rounded">
                     <input className="w-[22px] h-[22px] rounded border-[1px] border-[#C8C8C8]" type="checkbox" name="privacyPolicy" required />
-                    <span className="w-[278px] h-[22px] font-lato text-[14px]text-center m-2" onChange={handleChange}>I agree to the privacy policy.*</span>
+                    <span className="w-[278px] h-[22px] font-lato text-[14px]text-center m-2" onChange={handleChange}>I agree to the
+                      <Link href="/privacy-policy" passHref>
+                        <span className="text-blue-500 hover:underline ml-1">privacy policy.*</span>
+                      </Link>
+                    </span>
                   </div>
-                  <button className="w-[140px] h-[48px] rounded-md px-[18px] py-[10px] bg-[#00A0D0] mt-7" type="submit">Submit</button>
+                  <button className="inline-block px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 mt-7" type="submit">Submit</button>
                 </form>
               </div>
             </div>

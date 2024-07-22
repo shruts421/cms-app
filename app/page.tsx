@@ -1,15 +1,9 @@
-import TopHeader from "@/components/top-header";
-
-const title = "PRO-TECH TITAN® Software for Door and Hardware Distributors";
-const breadcrumbs = [
-  { label: 'Home', href: '/' },
-  { label: 'Features', href: '/features' },
-];
+import Dashboard from "@/components/dashboard";
 
 export default function Home() {
   return (
     <main>
-      <TopHeader title={title} breadcrumbs={breadcrumbs} />
+      <Dashboard />
     </main>
   );
 }
