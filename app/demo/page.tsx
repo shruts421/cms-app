@@ -44,7 +44,7 @@ export default function Demo() {
     });
   };
 
-  const title = "Request a PRO-TECH TITAN® demo";
+  const title = "Request a PRO-TECH TITAN® Demo";
   const breadcrumbs = [
     { label: 'Home', href: '/' },
     { label: 'Request a Demo', href: '/demo' },
