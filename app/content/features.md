@@ -61,5 +61,7 @@ features:
     subSections:
       - title: simplicity
         image: images/simplicity.svg
+        details:
+          - description: abc
 ---
 **Project management solution for distributors**
