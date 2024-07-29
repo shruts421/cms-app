@@ -13,6 +13,8 @@ features:
               from scratch in APOGEE, our advanced drawing program
           - description: Automatic revisions - Easily revise any schedule without errors,
               regardless if it's one door or 10,000 doors
+          - description: Price estimate reports - Detailed price estimate reports allow
+              quick and accurate reviews before submittal
       - title: Improve business efficiency
         image: /images/improvebusiness.svg
         details:
@@ -57,5 +59,12 @@ features:
               proposal feature to create distinctive submittals
           - description: Cloud hosting - Cloud hosting on Amazon Web Services is standard in
               TITAN and optional in V8
+  - title: New Feature added
+    subSections:
+      - title: Simplicity
+        image: images/simplicity.svg
+        details:
+          - description: Export - Download complete or specific data sets with the document
+              export feature
 ---
 **Project management solution for distributors**
