@@ -4,6 +4,17 @@ date: 2024-07-05T10:10:00.000Z
 features:
   - title: Improve business efficiency
     subSections:
+      - title: Automation
+        image: /images/automation.svg
+        details:
+          - description: Import schedules - Openings schedules and hardware sets can be
+              imported directly from Excel or Openings Studio
+          - description: Elevations - Render 3D images from hundreds of templates or create
+              from scratch in APOGEE, our advanced drawing program
+          - description: Automatic revisions - Easily revise any schedule without errors,
+              regardless if it's one door or 10,000 doors
+          - description: Price estimate reports - Detailed price estimate reports allow
+              quick and accurate reviews before submittal
       - title: Improve business efficiency
         image: /images/improvebusiness.svg
         details:
@@ -20,15 +31,6 @@ features:
           - description: AD - Active Directory integration for easy employee log-in
           - description: Customized integrations - Custom integrations are possible for
               customer specific solutions
-      - title: Automation
-        image: /images/automation.svg
-        details:
-          - description: Import schedules - Openings schedules and hardware sets can be
-              imported directly from Excel or Openings Studio
-          - description: Elevations - Render 3D images from hundreds of templates or create
-              from scratch in APOGEE, our advanced drawing program
-          - description: Automatic revisions - Easily revise any schedule without errors,
-              regardless if it's one door or 10,000 doors
   - title: Create consistent performance
     subSections:
       - title: Accountability
@@ -57,5 +59,16 @@ features:
               proposal feature to create distinctive submittals
           - description: Cloud hosting - Cloud hosting on Amazon Web Services is standard in
               TITAN and optional in V8
+  - title: Third Feature added
+    subSections:
+      - title: Simplicity
+        image: images/simplicity.svg
+        details:
+          - description: >-
+              
+
+              Export - Download complete or specific data sets with the document export feature
+          - description: Tags/groups - Create areas to break down a contract job by
+              building, floor, phase or any other category you choose
 ---
 **Project management solution for distributors**
