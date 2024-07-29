@@ -13,7 +13,6 @@ features:
               when configuring and estimating project items
           - description: Real-time product updates - Track change orders and impact to price
               as the project evolves
-          - description: First details
       - title: Integrations
         image: /images/integrations.svg
         details:
@@ -58,6 +57,5 @@ features:
               proposal feature to create distinctive submittals
           - description: Cloud hosting - Cloud hosting on Amazon Web Services is standard in
               TITAN and optional in V8
-  - title: New section added
 ---
 **Project management solution for distributors**
