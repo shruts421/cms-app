@@ -58,11 +58,9 @@ export default async function Features() {
                         style={{ backgroundImage: 'url("/demoFormBackground1.png")' }}>
                     </div>
                 </div>
-
                 <div className="absolute top-40 left-0 right-0 bottom-0 bg-cover bg-center w-full h-[847px]"
                     style={{ backgroundImage: 'url("/demoFormBackground.png")' }}>
                 </div>
-
                 <div className="relative z-10 p-8">
                     <div className="flex justify-center items-center ">
                         <div className="text-center w-[1172px] h-[177px]">
@@ -74,33 +72,15 @@ export default async function Features() {
                                         <span className=' w-[167px] h-5 font-lato text-[16px] font-[600] leading-5 text-white'>
                                             Request a Demo
                                         </span>
-                                        <svg
-                                            width="9.31"
-                                            height="14.91"
-                                            viewBox="0 0 10 15"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            className="text-white"
-                                        >
-                                            <path
-                                                d="M9.14214 7.0007L2.43901 1.07101L1.46401 0.208511C0.732762 -0.438364 -0.445363 0.567886 0.326512 1.21476L7.02964 7.14445L7.39526 7.46789L1.30151 12.8585L0.367137 13.6851C-0.364113 14.3319 0.773387 15.3741 1.50464 14.6913L8.16714 8.79757L9.10151 7.97101C9.46714 7.75539 9.46714 7.2882 9.14214 7.0007Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
-
-
+                                        <Image src={"/icons/chevron-right.svg"} alt="" height={15} width={10}></Image>
                                     </div>
-
                                 </button>
                             </Link>
                         </div>
                     </div>
-
                     {features.map((feature, index) => (
                         <div key={index}>{renderFeatures(feature.frontmatter.features)}</div>
                     ))}
-
-
                     <div className='flex justify-center'>
                         <div className='w-[90%]'>
                             <Link href="/pro-tech">
@@ -109,19 +89,7 @@ export default async function Features() {
                                         <span className=' min-w-[271px] h-5 font-lato text-[16px] font-[600] leading-5 text-white mr-3'>
                                             Learn more about PRO-TECH TITAN®
                                         </span>
-                                        <svg
-                                            width="9.31"
-                                            height="14.91"
-                                            viewBox="0 0 10 15"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            className="text-white"
-                                        >
-                                            <path
-                                                d="M9.14214 7.0007L2.43901 1.07101L1.46401 0.208511C0.732762 -0.438364 -0.445363 0.567886 0.326512 1.21476L7.02964 7.14445L7.39526 7.46789L1.30151 12.8585L0.367137 13.6851C-0.364113 14.3319 0.773387 15.3741 1.50464 14.6913L8.16714 8.79757L9.10151 7.97101C9.46714 7.75539 9.46714 7.2882 9.14214 7.0007Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
+                                        <Image src={"/icons/chevron-right.svg"} alt="" height={15} width={10}></Image>
                                     </div>
                                 </button>
                             </Link>

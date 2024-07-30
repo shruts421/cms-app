@@ -49,8 +49,6 @@ const PromoSection: React.FC = () => {
               alt="Action Image"
               layout="fill"
               objectFit="cover"
-              //width={345}
-              //height={331}
               className="rounded-t-lg md:rounded-t-none md:rounded-l-lg"
             />
           </div>
@@ -124,19 +122,17 @@ const Dashboard: React.FC = () => {
           </div>
         </div>
       </div>
-
       <div className="container mx-auto py-16">
         <h2 className="font-lato text-[32px] text-3xl font-bold text-center mb-8">Robust Features Save Your Time and Money</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <div key={index} className="font-lato text-[15px] flex flex-col items-center text-center p-4 border rounded-lg shadow-md">
-              <img src={feature.icon} alt={feature.title} className="mb-4 h-16 w-16" />
+              <Image src={feature.icon} alt={feature.title} width={64} height={64} className="mb-4"/>
               <p>{feature.title}</p>
             </div>
           ))}
         </div>
       </div>
-
       <div className="flex flex-col lg:flex-row items-center justify-between p-8 border rounded-lg shadow-md bg-white">
         <div className="lg:w-1/2 ml-[146px]">
           <Image
@@ -168,7 +164,6 @@ const Dashboard: React.FC = () => {
         </div>
       </div>
       <PromoSection />
-
     </div>
   );
 };

@@ -27,8 +27,6 @@ export default function Demo() {
     }));
   };
 
-
-
   const handleSubmit = async (event: any) => {
     event.preventDefault();
 

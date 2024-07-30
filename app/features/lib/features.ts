@@ -9,10 +9,7 @@ export function getFeatureSlugs() {
 
 export async function getFeatureBySlug(slug: string) {
     const realSlug = slug.replace(/\.md$/, '');
-    const fullPath = path.join(postsDirectory, `${realSlug}.md`);
     const { attributes, react: Content } = await import(`../../content/${realSlug}.md`);
-    //const { attributes, react: Content } = require(`../content/${realSlug}.md`);
-
     return { slug: realSlug, frontmatter: attributes, Content };
 }
 
