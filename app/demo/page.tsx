@@ -56,10 +56,10 @@ export default function Demo() {
       </div>
       <div className="relative h-300 bg-white">
         <div className="absolute top-0 right-0 w-44 h-40 opacity-100  origin-top-right bg-cover bg-center"
-          style={{ backgroundImage: 'url("/demoFormBackground1.png")' }}>
+          style={{ backgroundImage: 'url("/images/demoFormBackground1.png")' }}>
         </div>
         <div className="absolute top-40 left-0 right-0 bottom-0 bg-cover bg-center w-full h-[710px]"
-          style={{ backgroundImage: 'url("/demoFormBackground.png")' }}>
+          style={{ backgroundImage: 'url("/images/demoFormBackground.png")' }}>
         </div>
         <div className="relative z-10 p-8">
           <div className="relative w-[994px] h-[793px] top-[20px] mx-auto mb-8">

@@ -55,11 +55,11 @@ export default async function Features() {
             <div className="relative h-300">
                 <div className='absolute bg-white w-full h-40'>
                     <div className="absolute top-0 right-0 w-44 h-40 opacity-100  origin-top-right bg-cover bg-center"
-                        style={{ backgroundImage: 'url("/demoFormBackground1.png")' }}>
+                        style={{ backgroundImage: 'url("/images/demoFormBackground1.png")' }}>
                     </div>
                 </div>
                 <div className="absolute top-40 left-0 right-0 bottom-0 bg-cover bg-center w-full h-[847px]"
-                    style={{ backgroundImage: 'url("/demoFormBackground.png")' }}>
+                    style={{ backgroundImage: 'url("/images/demoFormBackground.png")' }}>
                 </div>
                 <div className="relative z-10 p-8">
                     <div className="flex justify-center items-center ">
