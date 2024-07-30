@@ -109,7 +109,7 @@ const Dashboard: React.FC = () => {
         </p>
         <div className="relative w-full max-w-4xl">
           <Image
-            src="/homepage_header.png"
+            src="/images/homepage-header.png"
             alt="imageAlt"
             className="rounded-md"
             width={1094}
