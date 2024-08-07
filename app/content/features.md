@@ -59,7 +59,7 @@ features:
               proposal feature to create distinctive submittals
           - description: Cloud hosting - Cloud hosting on Amazon Web Services is standard in
               TITAN and optional in V8
-  - title: New Feature added
+  - title: New Feature
     subSections:
       - title: Simplicity
         image: images/simplicity.svg
